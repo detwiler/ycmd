@@ -1128,7 +1128,8 @@ def EnableClangdCompleter( Args ):
     if not Args.quiet:
       print( msg )
 
-  DownloadClangd( Print )
+  # binaries no longer available at download_url, use system clangd instead
+  # DownloadClangd( Print )
 
   if Args.quiet:
     print( 'OK' )
