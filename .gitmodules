@@ -33,7 +33,8 @@
 	url = https://github.com/kjd/idna
 [submodule "third_party/watchdog_deps/pathtools"]
 	path = third_party/watchdog_deps/pathtools
-	url = https://github.com/gorakhargosh/pathtools
+	url = https://github.com/detwiler/pathtools
+	branch = vim-7.4.1578
 [submodule "third_party/watchdog"]
 	path = third_party/watchdog_deps/watchdog
 	url = https://github.com/gorakhargosh/watchdog
